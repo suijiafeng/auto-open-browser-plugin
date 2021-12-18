@@ -1,6 +1,6 @@
 {
   "name": "auto-open-browser-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A development plugin for webpack",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/suijiafeng/auto-open-browser-plugin.git"
   },
-  "homepage": "https://github.com/suijiafeng/auto-open-browser-plugin#README",
+  "homepage": "https://github.com/suijiafeng/auto-open-browser-plugin",
   "keywords": [
     "webpack",
     "auto-open",
@@ -22,7 +22,6 @@
   "engines": {
     "node": ">= 10.13.0"
   },
-
   "peerDependencies": {
     "webpack": "^4.0.0 || ^5.0.0"
   },
@@ -30,6 +29,9 @@
     "open": "^6.3.0",
     "chalk": "^2.4.2",
     "execa": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^9.1.1"
   },
   "author": "@suijf",
   "license": "MIT"
