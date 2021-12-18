@@ -1,6 +1,6 @@
 {
   "name": "auto-open-browser-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A development plugin for webpack",
   "main": "lib/index.js",
   "scripts": {
