@@ -12,7 +12,7 @@ npm install auto-open-browser-plugin --save-dev
 Simply require the plugin and add it in the **plugins** section:
 
 ```javascript
-var OpenBrowserPlugin = require('auto-open-browser-plugin');
+const OpenBrowserPlugin = require('auto-open-browser-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, 'lib/entry.js'),
